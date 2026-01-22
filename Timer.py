@@ -14,7 +14,7 @@ try:
         print("-----countdown timer------")
         print(f"\n{hours:02}:{minutes:02}:{seconds:02}")
 
-        time.sleep(0.1)
+        time.sleep(1)
 
         total_seconds -= 1
 
