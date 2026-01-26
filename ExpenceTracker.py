@@ -49,7 +49,6 @@ class ExpenseTracker:
         except FileNotFoundError:
             self.expenses = []
 
-# Example usage
 if __name__ == "__main__":
     tracker = ExpenseTracker()
 
